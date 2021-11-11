@@ -3,7 +3,7 @@
   "version": "3.3.2",
   "slug": "mlblock",
   "description": "Block-based programming for Machine Learning on the Web",
-  "url": "https://github.com/nazt/hassio-mlblock3",
+  "url": "https://github.com/nazt/hassio-mlblock4",
   "ingress": true,
   "ingress_port": 0,
   "ingress_stream": true,
