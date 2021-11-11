@@ -47,7 +47,7 @@ RUN apt-get install -y --no-install-recommends nodejs git
     RUN mkdir -p /app
     RUN curl -L -s -o /usr/bin/tempio \
         "https://github.com/home-assistant/tempio/releases/download/2021.05.0/tempio_aarch64" && chmod a+x /usr/bin/tempio
-    RUN cd /app && curl https://github.com/nazt/hassio-mlblock3/releases/download/v3.3.2/app.tar.bz2 | tar -zxv
+    RUN cd /app && curl -L https://github.com/nazt/hassio-mlblock3/releases/download/v3.3.2/app.tar.bz2 -o - | tar xvz
     RUN npm i -g serve
     RUN npm cache clean --force \
     \
