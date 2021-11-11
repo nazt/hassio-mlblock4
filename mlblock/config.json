@@ -1,6 +1,6 @@
 {
   "name": "MLBlock",
-  "version": "3.3.4",
+  "version": "3.3.5",
   "slug": "mlblock",
   "description": "Block-based programming for Machine Learning on the Web",
   "url": "https://github.com/nazt/hassio-mlblock4",
